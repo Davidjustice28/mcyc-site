@@ -1,0 +1,58 @@
+#main-navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: italic;
+}
+
+#main-navbar-menu {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  left: 30px;
+}
+
+#main-navbar-logo {
+  width: 170px;
+  height: 30px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#main-navbar-menu-button {
+  list-style: none;
+  font-weight: bold;
+  background-color: #B0FC38;
+  color: black;
+  font-weight: bold;
+  list-style: none;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px gray;
+  position: relative;
+  left: 15px;
+}
+
+#main-navbar-logo:hover, #main-navbar-menu-button:hover {
+  cursor: pointer;
+}
+.main-navbar-menu-item {
+  list-style: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.main-navbar-menu-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

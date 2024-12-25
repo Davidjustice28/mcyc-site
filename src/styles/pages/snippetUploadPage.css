@@ -1,0 +1,19 @@
+
+#snippet-upload-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#snippet-upload-text-editor {
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#snippet-form-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+}

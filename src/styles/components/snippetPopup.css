@@ -1,0 +1,36 @@
+.popup-content {
+  margin: auto;
+  background: rgb(210, 180, 140);
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#code-snippet-popup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#code-snippet-popup-buttons {
+  margin-top: 5px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+#snippet-popup-info-bar {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border: "2px solid black";
+}
